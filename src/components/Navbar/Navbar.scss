@@ -20,13 +20,8 @@
     align-items: center;
 
     img {
-        width: 90px;
-        height: 20px;
-
-        @media screen and (min-width: 2000px) {
-            width: 180px;
-            height: 40px;
-        }
+        width: 40px;
+        height: 40px;
     }
 }
 
@@ -113,12 +108,8 @@
         justify-content: flex-end;
         align-items: flex-end;
         flex-direction: column;
-        background: url('../../assets/bgWhite.png');
         background-color: var(--white-color);
-        background-size: cover;
-        background-repeat: repeat;
-
-        box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
+        box-shadow: 0 0 20px rgba(143, 142, 142, 0.527);
 
         svg {
             width: 35px;

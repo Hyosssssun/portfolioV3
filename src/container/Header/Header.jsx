@@ -5,38 +5,27 @@ import { AppWrap } from '../../wrapper'
 import { images } from '../../constants'
 import "./Header.scss";
 
-const scaleVariants = {
-  whileInView: {
-    scale: [0, 1],
-    opacity: [0, 1],
-    transition: {
-      duration: 1,
-      ease: 'easeInOut'
-    }
-  }
-}
-
 const Header = () => {
   return (
-      <div id='home' className="app__header app__flex">
+      <div id="home" className="app__header app__flex">
           <motion.div
               whileInView={{ x: [-100, 0], opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
               className="app__header-info"
           >
-              <div className="app__header-badge">
-                  <div className="badge-cmp app__flex">
-                      <span>👋</span>
-                      <div style={{ marginLeft: 20 }}>
-                          <p className="p-text">Hello, I am</p>
-                          <h1 className="head-text">Hyosun</h1>
-                      </div>
-                  </div>
-
-                  <div className="tag-cmp app_flex">
-                      <p className="p-text">Web Developer</p>
-                      <p className="p-text">Freelancer</p>
-                  </div>
+              <div className="app__header-welcome">
+                  <h3>Hello, World! My name is</h3>
+                  <h1 className="head-text">
+                      Hyosun Lee, <br /> a <span>Full Stack Developer</span>
+                  </h1>
+                  <p className='p-text'>
+                      I am originally from South Korea, based in Bedford. I believe programming is all
+                      about communication. I am enthusiastic about what I do and
+                      what I learn, also get energised by bringing
+                      ideas into action. My ultimate ambition is to be a
+                      software engineer where I am constantly challenging myself
+                      to reach new heights.
+                  </p>
               </div>
           </motion.div>
 
@@ -45,26 +34,11 @@ const Header = () => {
               transition={{ duration: 0.5, delayChildren: 0.5 }}
               className="app__header-img"
           >
-              <img src={images.profile} alt="profile_bg" />
-              <motion.img
-                  whileInView={{ scale: [0, 1] }}
-                  transition={{ duration: 1, ease: "easeInOut" }}
-                  src={images.circle}
-                  alt="profile_circle"
-                  className="overlay_circle"
+              <img
+                  src={images.HyosunInXmas}
+                  alt="profile_bg"
+                  className="hyosun-img"
               />
-          </motion.div>
-
-          <motion.div
-              variant={scaleVariants}
-              whileInView={scaleVariants.whileInView}
-              className='app__header-circles'
-          >
-            {[images.flutter, images.redux, images.sass].map((circle, index)=>(
-              <div className='circle-cmp app__ flex' key={`circle-${index}`}>
-                <img src={circle} alt='circle' />
-              </div>
-            ))}
           </motion.div>
       </div>
   );

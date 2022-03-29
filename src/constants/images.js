@@ -1,72 +1,59 @@
-import email from "../assets/email.png";
-import mobile from "../assets/mobile.png";
-import api from "../assets/api.png";
-import cpp from "../assets/cpp.png";
-import css from "../assets/css.png";
-import figma from "../assets/figma.png";
-import flutter from "../assets/flutter.png";
-import git from "../assets/git.png";
-import graphql from "../assets/graphql.png";
-import html from "../assets/html.png";
-import javascript from "../assets/javascript.png";
-import mu5 from "../assets/mu5.png";
-import node from "../assets/node.png";
-import python from "../assets/python.png";
-import react from "../assets/react.png";
-import redux from "../assets/redux.png";
-import sass from "../assets/sass.png";
-import typescript from "../assets/typescript.png";
-import vue from "../assets/vue.png";
+import css from "../assets/languages/css.png";
+import figma from "../assets/languages/figma.png";
+import flutter from "../assets/languages/flutter.png";
+import git from "../assets/languages/git.png";
+import graphql from "../assets/languages/graphql.png";
+import html from "../assets/languages/html.png";
+import javascript from "../assets/languages/javascript.png";
+import node from "../assets/languages/node.png";
+import python from "../assets/languages/python.png";
+import react from "../assets/languages/react.png";
+import redux from "../assets/languages/redux.png";
+import sass from "../assets/languages/sass.png";
+import typescript from "../assets/languages/typescript.png";
+import vue from "../assets/languages/vue.png";
 
-import about01 from "../assets/about01.png";
-import about02 from "../assets/about02.png";
-import about03 from "../assets/about03.png";
-import about04 from "../assets/about04.png";
+import brush from "../assets/brush.png";
+import front from "../assets/front.png";
+import database from "../assets/database.png";
+import test from "../assets/test.png";
 
-import profile from "../assets/profile.png";
-import circle from "../assets/circle.svg";
-import logo from "../assets/logo.png";
-
-import adidas from "../assets/adidas.png";
-import amazon from "../assets/amazon.png";
-import asus from "../assets/asus.png";
-import bolt from "../assets/bolt.png";
-import nb from "../assets/nb.png";
-import skype from "../assets/skype.png";
-import spotify from "../assets/spotify.png";
+import hyosunStanding from "../assets/hyosun/hyosun-standing.png"
+import hyosunSVG from "../assets/hyosun/hyosunSVG.svg"
+import HyosunInXmas from "../assets/hyosun/HyosunInXmas.svg";
+import HyosunInYork from "../assets/hyosun/HyosunInYork.png";
+import HyosunInZoo from "../assets/hyosun/HyosunInZoo.png";
+import HyosunLee from "../assets/hyosun/HyosunLee.png";
+import HyosunInWinter from "../assets/hyosun/HyosunInWinter.png";
+import circle from "../assets/imgForBackground/circle.svg";
+import hyosun from "../assets/hyosun.png";
 
 export const exampleImages = {
-    email,
-    mobile,
-    api,
-    cpp,
-    css,
-    figma,
-    flutter,
-    git,
-    graphql,
-    html,
-    javascript,
-    mu5,
-    node,
-    python,
-    react,
-    redux,
-    sass,
-    typescript,
-    vue,
-    about01,
-    about02,
-    about03,
-    about04,
-    profile,
-    circle,
-    logo,
-    adidas,
-    amazon,
-    asus,
-    bolt,
-    nb,
-    skype,
-    spotify,
+    css, 
+    figma, 
+    flutter, 
+    git, 
+    graphql, 
+    html, 
+    javascript, 
+    node, 
+    python, 
+    react, 
+    redux, 
+    sass, 
+    typescript, 
+    vue, 
+    brush, 
+    front, 
+    database, 
+    test, 
+    hyosunStanding,
+    hyosunSVG,
+    HyosunInXmas, 
+    HyosunInYork, 
+    HyosunInZoo, 
+    HyosunLee, 
+    HyosunInWinter, 
+    circle, 
+    hyosun
 };
