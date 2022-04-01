@@ -4,8 +4,25 @@
     flex-direction: column;
     height: 100vh;
 
-    @media screen and (max-width: 785px) {
+    @media screen and (max-width: 1440px) {
         height: auto
+    }
+}
+
+.app__about-introduction {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: var(--font-base);
+
+    p {
+        text-align: center;
+        margin-top: 1rem;
+        width: 87%;
+        font-size: 1.3rem;
     }
 }
 
@@ -16,6 +33,8 @@
     flex-wrap: wrap;
     margin-top: 4rem;
 }
+
+
 
 .app__profile-item {
     width: 210px;
