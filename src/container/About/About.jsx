@@ -27,22 +27,22 @@ const About = () => {
                     About <span>Me</span>
                 </h2>
                 <p>
-                    When I turned 30, I wanted to try something new. So I
-                    started teaching myself how to code, I enjoyed it so much
-                    and that was the time that I fell in love with coding. Then
-                    I started learning JavaScript and it made me think about
-                    changing my career as a software engineer.
+                    When I turned 30, I wanted to learn something new, so I
+                    started teaching myself how to code. I enjoyed it so much
+                    and really fell in love with coding. After
+                    I started learning JavaScript, it made me think about
+                    changing my career to a software engineer.
                 </p>
                 <p>
-                    November 2021, I started this life changing 16 weeks
+                    In November 2021, I started a life changing 16 weeks
                     Full-Stack Software Development Bootcamp with School Of
                     Code. It has been such an amazing experience and I learned
                     so many things including how to build, test, and deploy
-                    full-stack applications. Also I managed to learn how to work
+                    full-stack applications. Also, I managed to learn how to work
                     remotely and effectively within a team as the course was
                     100% remote. A lot of emphasis was put on learning Agile
                     Principles which really paid off during the 1 week project,
-                    and the final 4 weeks project. All of the learning and
+                    and then the final 4 weeks project. All of the learning and
                     building during the course was done using Pair-Programming
                     and Git.
                 </p>

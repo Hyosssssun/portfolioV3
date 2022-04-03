@@ -25,11 +25,10 @@ const Header = () => {
                       ideas into action. My ultimate ambition is to be a
                       software engineer where I am constantly challenging myself
                       to reach new heights. */}
-                      Originally from South Korea, based in Bedford. I believe programming is all
-                      about communication. I am enthusiastic about what I do and what I learn, also get energised by bringing
+                      Originally from South Korea, currently based in Bedford. I believe programming is all
+                      about communication. I am enthusiastic about what I do and what I learn, and 
+                      also get energised by bringing
                       ideas into action.
-                       {/* My ultimate ambition is to be a
-                      software engineer where I am constantly challenging myself to reach new heights. */}
                   </p>
               </div>
           </motion.div>
