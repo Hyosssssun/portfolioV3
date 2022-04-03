@@ -1,5 +1,6 @@
 #home {
     position: relative;
+    // background-color: var(--primary-color);
     background-color: var(--primary-color);
 
     .app__wrapper {
@@ -93,7 +94,7 @@
 }
 
 .app__header-img {
-    height: 70vh;
+    height: 55vh;
     margin: 0 0 2rem ;
 
     display: flex;
