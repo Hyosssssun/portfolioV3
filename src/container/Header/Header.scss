@@ -71,7 +71,7 @@
     
     p {
         margin-top: 1rem;
-        width: 87%;
+        width: 76%;
         font-size: 1.3rem;
     }
 
@@ -86,7 +86,16 @@
     
         p {
             margin-top: 1rem;
-            width: 98%;
+            width: 60%;
+            font-size: 0.95rem;
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 745px) {
+        p {
+            margin-top: 1rem;
+            width: 90%;
             font-size: 0.95rem;
             text-align: center;
         }

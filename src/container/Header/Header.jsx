@@ -19,12 +19,17 @@ const Header = () => {
                       Hyosun Lee, <br /> a <span>Full Stack Developer</span>
                   </h1>
                   <p className='p-text'>
-                      I am originally from South Korea, based in Bedford. I believe programming is all
+                      {/* I am originally from South Korea, based in Bedford. I believe programming is all
                       about communication. I am enthusiastic about what I do and
                       what I learn, also get energised by bringing
                       ideas into action. My ultimate ambition is to be a
                       software engineer where I am constantly challenging myself
-                      to reach new heights.
+                      to reach new heights. */}
+                      Originally from South Korea, based in Bedford. I believe programming is all
+                      about communication. I am enthusiastic about what I do and what I learn, also get energised by bringing
+                      ideas into action.
+                       {/* My ultimate ambition is to be a
+                      software engineer where I am constantly challenging myself to reach new heights. */}
                   </p>
               </div>
           </motion.div>

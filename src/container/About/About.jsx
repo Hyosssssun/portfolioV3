@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { AppWrap, MotionWrap } from "../../wrapper";
+import { images } from "../../constants";
+import { HiOutlineChevronRight } from "react-icons/hi";
 
 import "./About.scss";
 import { urlFor, client } from "../../client";
@@ -16,11 +18,35 @@ const About = () => {
 
     return (
         <>
-            <div>
+            <motion.div
+                whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+                transition={{ duration: 0.5 }}
+                className="app__about-me"
+            >
                 <h2 className="head-text">
-                    My <span>Skills</span>
+                    About <span>Me</span>
                 </h2>
-            </div>
+                <p>
+                    When I turned 30, I wanted to try something new. So I
+                    started teaching myself how to code, I enjoyed it so much
+                    and that was the time that I fell in love with coding. Then
+                    I started learning JavaScript and it made me think about
+                    changing my career as a software engineer.
+                </p>
+                <p>
+                    November 2021, I started this life changing 16 weeks
+                    Full-Stack Software Development Bootcamp with School Of
+                    Code. It has been such an amazing experience and I learned
+                    so many things including how to build, test, and deploy
+                    full-stack applications. Also I managed to learn how to work
+                    remotely and effectively within a team as the course was
+                    100% remote. A lot of emphasis was put on learning Agile
+                    Principles which really paid off during the 1 week project,
+                    and the final 4 weeks project. All of the learning and
+                    building during the course was done using Pair-Programming
+                    and Git.
+                </p>
+            </motion.div>
 
             <div className="app__about-skills">
                 {abouts.map((about, index) => (
@@ -45,24 +71,18 @@ const About = () => {
                     </motion.div>
                 ))}
             </div>
-            <div className="app__about-skills-more">
+            <div className="app__about-more">
                 <p>
                     For further information regarding my skills and experience,
-                    <br />
-                    click the 'Read more'
-                    button below to download my full resume.
+                    <br className="br" /> click the cute little mini Hyosun
+                    avatar to download my full resume.
                 </p>
-                <motion.div
-                    whileInView={{ opacity: 1 }}
-                    whileHover={{
-                        scale: 1.1,
-                        boxShadow: "rgba(0, 0,0,0.1) 0 0 25px",
-                    }}
-                    transition={{ duration: 0.5, type: "tween" }}
-                    className="getCV"
-                >
-                    <a href="../../assets/WorkWithHyosun.pdf" target='_blank'>Read More</a>
-                </motion.div>
+                <HiOutlineChevronRight className="arrow" />
+                <div className="getCV">
+                    <a href="../../assets/WorkWithHyosun.pdf" target="_blank">
+                        <img src={images.hyosun} alt="cv" />
+                    </a>
+                </div>
             </div>
         </>
     );
