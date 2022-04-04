@@ -39,7 +39,7 @@ const Header = () => {
               className="app__header-img"
           >
               <img
-                  src={images.HyosunInXmas}
+                  src={images.hyosunXmas}
                   alt="profile_bg"
                   className="hyosun-img"
               />

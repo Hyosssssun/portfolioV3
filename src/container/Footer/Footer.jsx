@@ -1,88 +1,90 @@
-import React, { useState } from 'react'
-
-import { images } from '../../constants'
-import { AppWrap, MotionWrap } from '../../wrapper'
-import { client } from '../../client'
+import React from "react";
+import { motion } from "framer-motion";
+import { BsGithub, BsLinkedin, BsEnvelopeFill } from "react-icons/bs";
+import { images } from "../../constants";
+import { AppWrap, MotionWrap } from "../../wrapper";
 import "./Footer.scss";
 
 const Footer = () => {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' })
-  const [isFormSubmitted, setIsFormSubmitted] = useState(false)
-  const [loading, setLoading] = useState(false)
-
-  const { name, email, message } = formData;
-
-  const handleChangeInput = e => {
-    const { name, value } = e.target;
-
-    setFormData({ ...formData, [name]: value });
-  }
-
-  const handleSubmit = () => {
-    setLoading(true);
-
-    const contact = {
-      _type: 'contact',
-      name: name,
-      email: email,
-      message: message,
-    }
-
-    client.create(contact)
-      .then(()=>{
-        setLoading(false);
-        setIsFormSubmitted(true);
-      })
-  }
-
-  return (
-      <>
-          <h2 className="head-text">Take a coffee & chat with me!</h2>
-
-          <div className="app__footer-cards">
-              <div className="app__footer-card">
-                  <img src={images.email} alt="email" />
-                  <a href="mailto:hyosssssun@gmail.com" className="p-text">
-                      hyosssssun@gmail.com
-                  </a>
-              </div>
-              <div className="app__footer-card">
-                  <img src={images.mobile} alt="mobile" />
-                  <a href="tel: +44 7763-675-776" className="p-text">
-                      {/* +44 7763-675-776 */}
-                  </a>
-              </div>
-          </div>
-
-          {!isFormSubmitted ? 
-          <div className='app__footer-form app__flex'>
-            <div className='app__flex'>
-              <input className='p-text' type='text' placeholder='Your Name' name='name' value={name} onChange={handleChangeInput} />
+    return (
+        <>
+            {/* <img src={images.hyosunMemoji1Thumbsup} alt="hyosun-memoji" />
+                <img src={images.hyosunMemoji1Love} alt="hyosun-memoji" />
+                */}
+            {/* <h2 className="head-text">Get in touch</h2> */}
+            <div className="app__footer-main">
+                <div className="app__footer-goodbye">
+                    <a
+                        href="Hyosun-CV.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <motion.img
+                            whileHover={{ scale: 1.1 }}
+                            whileTap={{ scale: 1.1 }}
+                            src={images.hyosunMemoji1Love}
+                            alt="hyosun-memoji"
+                        />
+                    </a>
+                    <p>
+                        Thank you for visitting
+                        <br />
+                        <span>Hyosun World!</span>
+                    </p>
+                </div>
+                <div className="app__footer-cards">
+                    <a href="mailto:hyosssssun@gmail.com">
+                        <motion.div
+                            whileInView={{ opacity: 1 }}
+                            whileHover={{
+                                scale: 1.1,
+                                boxShadow: "rgba(0, 0, 0, 0.3) 0 0 10px",
+                            }}
+                            className="app__footer-card"
+                        >
+                            <BsEnvelopeFill />
+                        </motion.div>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/hyosun-lee/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <motion.div
+                            whileInView={{ opacity: 1 }}
+                            whileHover={{
+                                scale: 1.1,
+                                boxShadow: "rgba(0, 0, 0, 0.3) 0 0 10px",
+                            }}
+                            className="app__footer-card"
+                        >
+                            <BsLinkedin />
+                        </motion.div>
+                    </a>
+                    <a
+                        href="https://github.com/Hyosssssun"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <motion.div
+                            whileInView={{ opacity: 1 }}
+                            whileHover={{
+                                scale: 1.1,
+                                boxShadow: "rgba(0, 0, 0, 0.3) 0 0 10px",
+                            }}
+                            className="app__footer-card"
+                        >
+                            <BsGithub />
+                        </motion.div>
+                    </a>
+                </div>
             </div>
-            <div className='app__flex'>
-              <input className='p-text' type='email' placeholder='Your Email' name='email' value={email} onChange={handleChangeInput} />
-            </div>
-            <div>
-              <textarea
-                className='p-text'
-                placeholder='Your Message'
-                value={message}
-                name='message'
-                onChange={handleChangeInput}
-              />
-            </div>
-            <button type='button' className='p-text' onClick={handleSubmit}>{loading ? 'Sending' : 'Send Message'}</button>
-          </div>
-        : <div>
-          <h3 className='head-text'>Thank you for getting in touch</h3>
-        </div>
-        }
-      </>
-  );
-}
+        </>
+    );
+};
 
 export default AppWrap(
-  MotionWrap(Footer, 'app__footer'),
-  'contact',
-  'app__whitebg'
-)
+    MotionWrap(Footer, "app__footer"),
+    "contact",
+    "app__whitebg"
+);

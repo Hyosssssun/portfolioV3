@@ -29,18 +29,18 @@ const About = () => {
                 <p>
                     When I turned 30, I wanted to learn something new, so I
                     started teaching myself how to code. I enjoyed it so much
-                    and really fell in love with coding. After
-                    I started learning JavaScript, it made me think about
-                    changing my career to a software engineer.
+                    and really fell in love with coding. After I started
+                    learning JavaScript, it made me think about changing my
+                    career to a software engineer.
                 </p>
                 <p>
                     In November 2021, I started a life changing 16 weeks
                     Full-Stack Software Development Bootcamp with School Of
                     Code. It has been such an amazing experience and I learned
                     so many things including how to build, test, and deploy
-                    full-stack applications. Also, I managed to learn how to work
-                    remotely and effectively within a team as the course was
-                    100% remote. A lot of emphasis was put on learning Agile
+                    full-stack applications. Also, I managed to learn how to
+                    work remotely and effectively within a team as the course
+                    was 100% remote. A lot of emphasis was put on learning Agile
                     Principles which really paid off during the 1 week project,
                     and then the final 4 weeks project. All of the learning and
                     building during the course was done using Pair-Programming
@@ -73,14 +73,22 @@ const About = () => {
             </div>
             <div className="app__about-more">
                 <p>
-                    For further information regarding my skills and experience,
-                    <br className="br" /> click the cute little mini Hyosun
-                    avatar to download my full resume.
+                    For further information about my skills and experiences,
+                    <br className="br" /> click the mini Hyosun to download my full resume.
                 </p>
                 <HiOutlineChevronRight className="arrow" />
                 <div className="getCV">
-                    <a href="../../assets/WorkWithHyosun.pdf" target="_blank">
-                        <img src={images.hyosun} alt="cv" />
+                    <a
+                        href="Hyosun-CV.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <motion.img
+                            whileHover={{ scale: 1.1 }}
+                            whileTap={{ scale: 1.1 }}
+                            src={images.hyosunMemoji1Light}
+                            alt="hyosun-memoji"
+                        />
                     </a>
                 </div>
             </div>

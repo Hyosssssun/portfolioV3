@@ -1,1 +1,1 @@
-export { exampleImages as images } from "./images";
+export { imagesFor as images } from "./images";

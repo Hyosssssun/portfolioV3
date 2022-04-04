@@ -14,14 +14,15 @@
     margin: 4rem 0 2rem;
 
     .app__work-filter-item {
+        margin: 0.5rem;
         padding: 0.5rem 1rem;
+        
         border-radius: 0.5rem;
         background-color: #fff;
         color: #000;
         font-weight: 800;
         cursor: pointer;
         transition: all 0.3s ease;
-        margin: 0.5rem;
 
         &:hover {
             background-color: var(--secondary-color);
@@ -38,6 +39,11 @@
         background-color: var(--secondary-color);
         color: #fff;
     }
+
+    @media screen and (max-width: 495px) {
+        margin: 2rem 0;
+    }
+
 }
 
 .app__work-portfolio {
@@ -76,6 +82,11 @@
             width: 100%;
             margin: 1rem;
         }
+    }
+
+    @media screen and (max-width: 495px) {
+        justify-content: center;
+        align-items: center;
     }
 }
 

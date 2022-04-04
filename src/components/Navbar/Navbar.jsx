@@ -9,7 +9,9 @@ const Navbar = () => {
   return (
       <nav className="app__navbar">
           <div className="app__navbar-logo">
-              <img src={images.hyosun} alt="logo" className='logo'/>
+              <a href="Hyosun-CV.pdf" target="_blank" rel="noopener noreferrer">
+                  <img src={images.hyosunIcon} alt="logo" className="logo" />
+              </a>
           </div>
           <ul className="app__navbar-links">
               {["home", "about", "projects", "contact"].map((item) => (
@@ -26,7 +28,6 @@ const Navbar = () => {
               {toggle && (
                   <motion.div
                       whileInView={{ x: [300, 0] }}
-                      // framer.com/developers
                       transition={{ duration: 0.85, ease: "easeInOut" }}
                   >
                       <HiX onClick={() => setToggle(false)} />
