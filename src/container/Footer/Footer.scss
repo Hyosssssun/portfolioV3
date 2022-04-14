@@ -36,7 +36,7 @@
         color: var(--black-color);
 
         span {
-            color: var(--secondary-color)
+            color: var(--hyosun-color)
         }
     }
 
@@ -70,23 +70,23 @@
         padding: 1rem;
         border-radius: 50%;
         cursor: pointer;
-        background-color: var(--primary-color);
+        background-color: var(--second-white-color);
 
         transition: all 0.1s ease-in-out;
         
         svg {
             width: 30px;
             height: 30px;
-            color: var(--gray-color);
+            color: var(--dark-gray-color);
             transition: all 0.3s ease-in-out;
         }
 
         &:hover {
             box-shadow: 0 0 25px #fef4f5;
-            background-color: var(--secondary-color);
+            background-color: var(--hyosun-color);
 
             svg {
-                color: var(--white-color);
+                color: #fff;
             }
         }
 
@@ -94,12 +94,12 @@
             width: 100%;
             margin: 0;
             padding: 0.8rem;
-            background-color: var(--secondary-color);
+            background-color: var(--hyosun-color);
 
             svg {
                 width: 20px;
                 height: 20px;
-                color: var(--white-color);
+                color: #fff;
                 transition: all 0.3s ease-in-out;
             }
         }

@@ -1,20 +1,130 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@400;500;700&display=swap");
 
 :root {
-  --font-base: 'Montserrat', sans-serif;
+    --font-base: "Montserrat", sans-serif;
 
-  --white-color: #ffffff;
-  --primary-color: #eeecec;
-  --secondary-color: #F89B47;
-  --black-color: #2C2D2D;
-  --lightGray-color: #e4e4e4;
-  --gray-color: #595A5A;
-  --brown-color: #46364a;
+    /* --white-color: #ffffff;
+    --second-white-color: #eeecec;
+    --header-text-color: #f3f3f3;
+    --light-gray-color: #e4e4e4;
+    --mid-gray-color: #cbcbcb;
+    --p-text-color: #9d9d9e;
+    --dark-gray-color: #595a5a;
+    --hyosun-color: #f89b47;
+    --brown-color: #46364a;
+    --black-color: #2c2d2d;
+    --secondary-color: #202022;
+    --primary--black-color: #151515; */
+    
+    /* 
+    background(about, contact), 
+    projects filter background, 
+    */
+    --white-color: #ffffff;
+    --cards-background-color: #ffffff; 
+    
+    /* 
+    background(home, projects), 
+    contacts icons background 
+    */
+    --second-white-color: #eeecec;
+   
+    /* social border */
+    --light-gray-color: #e4e4e4;
+    
+    /* nav dot */
+    --mid-gray-color: #cbcbcb;
+    
+    /* 
+    navbar font, 
+    home font(hello world! my name is, p-text), 
+    social svg, 
+    about disney ideation, 
+    projects p-text, 
+    contacts icons font 
+    */
+    --dark-gray-color: #595a5a;
+    
+    /* 
+    home font(hyosun lee, a), 
+    about head-text, 
+    about p-text, 
+    about planning-design, 
+    copyright, 
+    projects filter font, 
+    projects names, 
+    contacts thank for visitting
+    */
+    --black-color: #2c2d2d;
+
+    --hyosun-color: #f89b47;
+    --brown-color: #46364a;
+}
+
+[data-theme="dark"] {
+    --font-base: "Montserrat", sans-serif;
+    
+    /* --white-color: #ffffff;
+    --second-white-color: #eeecec;
+    --header-text-color: #f3f3f3;
+    --light-gray-color: #e4e4e4;
+    --mid-gray-color: #cbcbcb;
+    --p-text-color: #9d9d9e;
+    --dark-gray-color: #595a5a;
+    --hyosun-color: #f89b47;
+    --brown-color: #46364a;
+    --black-color: #2c2d2d;
+    --secondary-color: #202022;
+    --primary--black-color: #151515; */
+
+    /* 
+    background(about, contact), 
+    projects filter background, 
+    */
+    --white-color: #151515;
+    
+    /* 
+    background(home, projects), 
+    contacts icons background 
+    */
+    --second-white-color: #202022;
+   
+    /* social border */
+    --light-gray-color: #2c2d2d;
+    --cards-background-color: #2c2d2d; 
+    
+    /* nav dot */
+    --mid-gray-color: #9d9d9e;
+    
+    /* 
+    navbar font, 
+    home font(hello world! my name is, p-text), 
+    social svg, 
+    about disney ideation, 
+    projects p-text, 
+    contacts icons font 
+    */
+    --dark-gray-color: #9d9d9e;
+    
+    /* 
+    home font(hyosun lee, a), 
+    about head-text, 
+    about p-text, 
+    about planning-design, 
+    copyright, 
+    projects filter font, 
+    projects names, 
+    contacts thank for visitting
+    */
+    --black-color: #f3f3f3c5;
+
+    --hyosun-color: #f89a47da;
+    --brown-color: #46364a;
 }
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  scroll-behavior: smooth;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
 }

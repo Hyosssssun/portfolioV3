@@ -52,11 +52,12 @@ const Work = () => {
                   "CSS",
                   "Sass",
                   "JavaScript",
-                  "Node JS",
                   "React JS",
+                  "PWA",
+                  "Node JS",
                   "PostgreSQL",
                   "Express",
-                  "PWA",
+                  "Auth0"
               ].map((item, index) => (
                   <div
                       key={index}

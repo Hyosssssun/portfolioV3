@@ -1,6 +1,6 @@
 #home {
     position: relative;
-    background-color: var(--primary-color);
+    background-color: var(--second-white-color);
 
     .app__wrapper {
         padding: 0;
@@ -56,7 +56,7 @@
     font-family: var(--font-base);
     
     h3 {
-        color: var(--gray-color)
+        color: var(--dark-gray-color)
     }
     
     h1 {
@@ -64,7 +64,7 @@
         text-align: left;
         
         span {
-            color: var(--secondary-color)
+            color: var(--hyosun-color)
         }
     }
     

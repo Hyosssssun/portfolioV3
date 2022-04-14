@@ -18,14 +18,14 @@
         padding: 0.5rem 1rem;
         
         border-radius: 0.5rem;
-        background-color: #fff;
-        color: #000;
+        background-color: var(--white-color);
+        color: var(--black-color);
         font-weight: 800;
         cursor: pointer;
         transition: all 0.3s ease;
 
         &:hover {
-            background-color: var(--secondary-color);
+            background-color: var(--hyosun-color);
             color: #fff;
         }
 
@@ -36,7 +36,7 @@
     }
 
     .item-active {
-        background-color: var(--secondary-color);
+        background-color: var(--hyosun-color);
         color: #fff;
     }
 
@@ -62,7 +62,7 @@
         margin: 2rem;
         // padding: 0.5rem;
         border-radius: 0.7rem;
-        background-color: var(--white-color);
+        background-color: var(--cards-background-color);
         color: var(--black-color);
         box-shadow: 0 0 25px rgba(0,0,0,0.2);
 
@@ -134,7 +134,7 @@
         height: 50px;
         border-radius: 50%;
         background-color: rgba(0,0,0,0.5);
-        color: #fff;
+        color: var(--white-color);
 
         margin: 1rem;
         font-family: var(--font-base);
@@ -145,7 +145,7 @@
         svg {
             width: 50%;
             height: 50%;
-            color: var(--white-color)
+            color: #fff;
         }
     }
 
@@ -164,14 +164,14 @@
         margin-top: 0.2rem;
         line-height: 1.5;
         padding: 0.4rem;
-        border-bottom: var(--secondary-color) 4px solid;
+        border-bottom: var(--hyosun-color) 4px solid;
     }
 
     // .app__work-tag {
     //     position: absolute;
     //     padding: 0.5rem 1rem;
     //     border-radius: 10px;
-    //     background-color: #fff;
+    //     background-color: var(--sec-background-color);
     //     top: -25px;
     // }
 
