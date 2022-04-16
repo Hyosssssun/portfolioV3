@@ -5,7 +5,6 @@ import './DarkMode.scss'
 // GENERAL :: when dark mode, is one background color would be better? (darker one)
 // PROJECTS :: when dark mode, I want my projects a bit darker so maybe toggle func or something?
 // PROJECTS :: when dark mode, the filters bg color should be same as card bg color?
-// ABOUT :: when dark mode, the img is black, can't change the color of it? should I download new img for dark mode and toggle it?
 // CONTACT :: icons bg color? or border? 
 
 // DARKMODE :: should it be in nav? every page? wrapper? top left or top right with wrapper? 
