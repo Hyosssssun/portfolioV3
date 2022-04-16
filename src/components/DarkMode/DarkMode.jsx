@@ -7,6 +7,8 @@ import './DarkMode.scss'
 // PROJECTS :: when dark mode, the filters bg color should be same as card bg color?
 // CONTACT :: icons bg color? or border? 
 
+// NAV Menu (phone size) :: shadow.... weird
+
 // DARKMODE :: should it be in nav? every page? wrapper? top left or top right with wrapper? 
 // DARKMODE-ICON :: just one and change with toggle? or slide like now?
 
