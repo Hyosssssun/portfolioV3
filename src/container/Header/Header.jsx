@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 import { AppWrap } from '../../wrapper'
 import { images } from '../../constants'
-import { DarkMode } from '../../components'
+// import { DarkMode } from '../../components'
 import "./Header.scss";
 
 const Header = () => {
@@ -15,7 +15,7 @@ const Header = () => {
               className="app__header-info"
           >
               <div className="app__header-welcome">
-                  <DarkMode />
+                  {/* <DarkMode /> */}
                   <h3>Hello, World! My name is</h3>
                   <h1 className="head-text">
                       Hyosun Lee, <br /> a <span>Full Stack Developer</span>

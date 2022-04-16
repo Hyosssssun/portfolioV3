@@ -14,7 +14,7 @@
   position: relative;
   display: inline-block;
   height: 34px;
-  width: 60px;
+  width: 70px;
 }
 
 .toggle-theme input {
@@ -44,15 +44,19 @@
 }
 
 input:checked + .slider:before {
-  transform: translateX(26px);
+  transform: translateX(36px);
 }
 
 input:checked + .slider {
-  background-color: rgba(212, 153, 65, 0.804);
+  background-color: var(--hyosun-color);
 }
 
 .slider.round {
   border-radius: 34px;
+  padding: 7px 3px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
 }
 
 .slider.round:before {

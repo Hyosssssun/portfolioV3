@@ -1,7 +1,7 @@
 .app__navbar {
     width: 100vw;
-
     display:flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
 
@@ -12,11 +12,11 @@
     border: 1px solid rgba(150, 150, 150, 0.036);
     position: fixed;
     z-index: 2;
-
 }
 
 .app__navbar-logo {
     display: flex;
+    display: none;
     justify-content: flex-start;
     align-items: center;
 
@@ -36,13 +36,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     list-style: none;
 
     li {
         margin: 0 1rem;
         cursor: pointer;
-
         flex-direction: column;
 
         div {
@@ -50,7 +48,6 @@
             height: 5px;
             background: transparent;
             border-radius: 50%;
-
             margin-bottom:  5px;
         }
         
@@ -88,32 +85,30 @@
     position: relative;
 
     display: flex;
+    // flex-direction: column;
     justify-content: center;
     align-items: center;
     background: var(--hyosun-color);
 
     svg {
-        width: 70%;
-        height: 70%;
+        width: 35px;
+        height: 28px;
         color: #fff;
     }
 
     div {
         position: fixed;
         top: 0;
-        bottom: 0;
-        right: 0;
+        left: 0;
         z-index: 5;
-
         padding: 1rem;
-
-        width: 80%;
-        height: 100vh;
+        width: 100vw;
+        height: 500%;
 
         display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
         flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
         background-color: var(--white-color);
         box-shadow: 0 0 20px rgba(143, 142, 142, 0.527);
 
@@ -132,8 +127,8 @@
             width: 100%;
             
             display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
+            justify-content: center;
+            align-items: center;
             flex-direction: column;
 
             li {
@@ -162,5 +157,14 @@
 
     @media screen and (min-width: 900px) {
         display: none;            
+    }
+}
+
+
+[data-theme = "dark"] {
+    .app__navbar-menu {
+        div {
+            box-shadow: 0 0 20px rgba(48, 48, 48, 0.527);
+        }
     }
 }
