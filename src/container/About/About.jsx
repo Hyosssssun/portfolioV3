@@ -40,14 +40,11 @@ const About = () => {
         </p>
         <p>
           In November 2021, I started a life changing 16 weeks Full-Stack
-          Software Development Bootcamp with School Of Code. It has been such an
+          Development Bootcamp with School Of Code. It has been such an
           amazing experience and I learned so many things including how to
-          build, test, and deploy full-stack applications. Also, I managed to
-          learn how to work remotely and effectively within a team as the course
-          was 100% remote. A lot of emphasis was put on learning Agile
-          Principles which really paid off during the 1 week project, and then
-          the final 4 weeks project. All of the learning and building during the
-          course was done using Pair-Programming and Git.
+          plan, build, test and deploy full-stack applications.
+          Although the training was fully remote, I learned how to work in a team effectively by using Pair-Programming.
+          Also as part of teamwork development, we spent lots of time practicing Agile methodologies during the 1 week project, and the 4 weeks final project.                       
         </p>
       </motion.div>
 
