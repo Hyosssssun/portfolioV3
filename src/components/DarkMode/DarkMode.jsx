@@ -1,16 +1,6 @@
 import "./DarkMode.scss";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 
-// GENERAL :: when dark mode, is one background color would be better? (darker one)
-// PROJECTS :: when dark mode, I want my projects a bit darker so maybe toggle func or something?
-// PROJECTS :: when dark mode, the filters bg color should be same as card bg color?
-// CONTACT :: icons bg color? or border?
-
-// NAV Menu (phone size) :: shadow.... weird
-
-// DARKMODE :: should it be in nav? every page? wrapper? top left or top right with wrapper?
-// DARKMODE-ICON :: just one and change with toggle? or slide like now?
-
 // index.css sort out dark theme colors.
 
 const setDark = () => {

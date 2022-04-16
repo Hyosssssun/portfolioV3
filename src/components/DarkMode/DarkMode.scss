@@ -22,7 +22,7 @@
 }
 
 .slider {
-  background-color: var(--white-color);
+  background-color: #ccc;
   position: absolute;
   cursor: pointer;
   bottom: 0;
@@ -33,7 +33,7 @@
 }
 
 .slider:before {
-  background-color: #ccc;
+  background-color: var(--white-color);
   bottom: 4px;
   content: "";
   height: 26px;
@@ -48,7 +48,7 @@ input:checked + .slider:before {
 }
 
 input:checked + .slider {
-  background-color: var(--hyosun-color);
+  background-color: #ccc;
 }
 
 .slider.round {

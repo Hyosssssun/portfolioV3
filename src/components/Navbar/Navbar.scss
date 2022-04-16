@@ -12,22 +12,27 @@
     border: 1px solid rgba(150, 150, 150, 0.036);
     position: fixed;
     z-index: 2;
+
+    @media screen and (min-width: 900px) {
+        padding: 1rem 4rem 1rem 2rem;
+    }
+    
 }
 
 .app__navbar-logo {
-    display: flex;
+    // display: flex;
     display: none;
-    justify-content: flex-start;
-    align-items: center;
+    // justify-content: flex-start;
+    // align-items: center;
 
-    img {
-        width: 40px;
-        height: 40px;
-    }
+    // img {
+    //     width: 40px;
+    //     height: 40px;
+    // }
 
-    @media screen and (min-width: 900px) {
-        display:none
-    }
+    // @media screen and (min-width: 900px) {
+    //     display:none
+    // }
 
 }
 
@@ -85,7 +90,6 @@
     position: relative;
 
     display: flex;
-    // flex-direction: column;
     justify-content: center;
     align-items: center;
     background: var(--hyosun-color);
