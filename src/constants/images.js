@@ -1,6 +1,6 @@
 import hyosunCat from "./assets/hyosun/hyosun-cat.jpg";
 import hyosunFriends from "./assets/hyosun/hyosun-friends.jpg";
-import hyosunIcon from "./assets/hyosun/hyosun-icon.png";
+// import hyosunIcon from "./assets/hyosun/hyosun-icon.png";
 import hyosunLondon from "./assets/hyosun/hyosun-london.png";
 import hyosunMario from "./assets/hyosun/hyosun-mario.JPG";
 import hyosunMemoji1Laptop from "./assets/hyosun/hyosun-memoji1-laptop.PNG";
@@ -71,7 +71,7 @@ import tributePage from "./assets/projects/tributepage.png";
 export const imagesFor = {
     hyosunCat,
     hyosunFriends,
-    hyosunIcon,
+    // hyosunIcon,
     hyosunLondon,
     hyosunMario,
     hyosunMemoji1Laptop,
