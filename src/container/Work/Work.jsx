@@ -53,6 +53,7 @@ const Work = () => {
                   "Sass",
                   "JavaScript",
                   "React JS",
+                  "React Native",
                   "PWA",
                   "Node JS",
                   "PostgreSQL",
