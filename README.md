@@ -1,7 +1,6 @@
-<h1 align="center"><b>Hyosun's portfolio V3</b></h1>
+<h1 align="center"><b>Hyosun's portfolio</b></h1>
 
-
-This is Hyosun's portfolio version3 built with ReactJS, Sanity, NodeJS, deployed using Netlify.
+This is Hyosun's portfolio built with ReactJS, NodeJS, deployed using Netlify.
 
 <br>
 
@@ -10,6 +9,7 @@ This is Hyosun's portfolio version3 built with ReactJS, Sanity, NodeJS, deployed
 ---
 
 ### See live demo here:
+
 ```
 https://www.hyosunlee.com/
 ```
@@ -17,6 +17,7 @@ https://www.hyosunlee.com/
 <br>
 
 ### To install dependencies:
+
 ```
 npm i
 ```
@@ -24,6 +25,7 @@ npm i
 <br>
 
 ### To start the project
+
 ```
 npm start
 ```
